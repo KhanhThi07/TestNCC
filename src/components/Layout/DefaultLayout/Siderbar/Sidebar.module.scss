@@ -3,3 +3,22 @@
   min-height: 935px;
   background-color: #191718;
 }
+.mobile-btn {
+  display: none;
+}
+@media (max-width: 739px) {
+  .wrapper {
+    display: none;
+  }
+  .mobile-btn {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 35px;
+    align-items: center;
+    padding: 8px 8px;
+    background-color: rgb(168, 168, 168);
+    opacity: 0.3;
+  }
+}

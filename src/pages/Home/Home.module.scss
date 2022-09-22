@@ -31,9 +31,37 @@
     margin-bottom: 18px;
   }
 }
-.group2 {
-  margin-right: 50px;
-}
+.group2,
 .group3 {
   margin-right: 50px;
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+  .group1 {
+    padding: 38px 80px;
+  }
+  .group {
+    display: block;
+    text-align: justify;
+  }
+  .group2 {
+    margin-right: 0;
+  }
+  .group3,
+  .group4 {
+    margin-right: 0;
+    margin-top: 38px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+  .home-page {
+    padding: 20px 50px;
+  }
+
+  .group1 {
+    padding: 30px 30px;
+  }
 }

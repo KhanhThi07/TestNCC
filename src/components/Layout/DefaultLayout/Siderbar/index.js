@@ -1,6 +1,8 @@
 import styles from './Sidebar.module.scss';
 import classNames from 'classnames/bind';
 import Menu from '~/components/Layout/DefaultLayout/Menu';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 const cx = classNames.bind(styles);
 
 const MENU_ITEMS = [
@@ -23,9 +25,14 @@ const MENU_ITEMS = [
 ];
 function Siderbar() {
   return (
-    <aside className={cx('wrapper')}>
-      <Menu items={MENU_ITEMS} />
-    </aside>
+    <>
+      <aside className={cx('wrapper')}>
+        <Menu items={MENU_ITEMS} />
+      </aside>
+      <div className={cx('mobile-btn')}>
+        <FontAwesomeIcon icon={faChevronRight} />
+      </div>
+    </>
   );
 }
 
