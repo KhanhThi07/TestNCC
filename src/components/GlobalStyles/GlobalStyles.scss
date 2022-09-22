@@ -1,0 +1,21 @@
+@import 'normalize.css';
+
+:root {
+  --black: #000;
+  --white: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100%;
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed; //Tối ưu tốc độ hiển thị phông
+}

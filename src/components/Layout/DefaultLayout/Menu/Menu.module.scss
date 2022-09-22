@@ -1,0 +1,38 @@
+//Menu wrapper
+.menu-list {
+  width: 100%;
+  color: #fff;
+  line-height: 18.75px;
+  font-weight: 700;
+  .menu-item {
+    margin-left: 0;
+  }
+}
+
+.menu-popper {
+  padding-bottom: 8px;
+}
+
+//Menu item
+.menu-item {
+  width: 100%;
+  justify-content: flex-start;
+  border-radius: 0;
+  padding: 13px 16px 11px 16px;
+  background-color: transparent;
+  color: #aaaaaa;
+
+  &.separate {
+    border-bottom: 1px solid #5c5c5c;
+  }
+  &:hover {
+    background-color: #5c5c5c;
+    color: #fff;
+  }
+}
+
+//Header-menu
+.header {
+  padding: 14px 18px 11px 18px;
+  border-bottom: 1px solid #5c5c5c;
+}
